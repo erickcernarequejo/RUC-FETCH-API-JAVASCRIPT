@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conulta RUC Fetch API</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        <h2>Buscador mediante RUC</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="form-group" id="ingreso-ruc">
+                        <label for="" class="form-label h5">Ingresa RUC</label>
+                        <input type="text" name="" id="ruc" class="form-control" placeholder="Ingresa ruc"
+                            aria-describedby="helpId" maxlength="11">
+                    </div>
+
+                    <button class="btn btn-primary mb-3" type="submit" id="btnBuscar">Buscar por RUC</button>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <table class="table table-bordered" id="listadoRUC">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Nombre o Razón Social</th>
+                                    <th scope="col">Estado</th>
+                                    <th scope="col">Condición de Domicilio</th>
+                                    <th scope="col">Departamento</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/rucClase.js"></script>
+    <script src="js/ruc.js"></script>
+</body>
+
+</html>
